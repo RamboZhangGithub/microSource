@@ -1,0 +1,54 @@
+#vim
+*~
+*.sw?
+
+# python
+*.pyc
+
+# generic editing tools
+tags
+
+#mac
+*.DS_Store
+
+# libs
+
+# build tools
+node_modules/
+
+# logfiles
+*.log
+.idea/
+.vscode/
+.history/
+
+# build artifacts
+build/index.html
+build/favicon.*
+
+# config override
+config/local.json
+
+webpack/dll
+# build
+build/
+
+#tgz
+*.tgz
+src/test.tsx
+pack.sh
+stats.json
+example
+
+# vscode
+*.code-workspace
+.vscode
+
+mock.*
+
+cypress/video
+cypress/screenshots
+cypress.json
+
+coverage/
+ygt.config.js
