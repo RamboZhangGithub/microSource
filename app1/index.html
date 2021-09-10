@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app1</title>
+    <style>
+        h1{
+           color: rebeccapurple;  
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>这里是子应用app1</h1>
+    <button id='app1btn'>10</button>
+    <script src="/app1.js"></script>
+    <script src="https://cdn.staticfile.org/lodash.js/4.17.20/lodash.core.min.js"></script>
+    <script>
+        console.log('app1内部 ');
+        console.log('lodash最大值', _.max([1, 2, 3, 10]));
+    </script>
+</body>
+
+</html>
