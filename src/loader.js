@@ -34,7 +34,7 @@ function parseScript(content, entry) {
     scripts = remoteScript.concat(scripts)
     return scripts
 }
-
+ 
 function parseCss(content, entry) {
     // 情况1： <link xxxx href="xxx.css"></link>
     // 情况2 ：<style>
