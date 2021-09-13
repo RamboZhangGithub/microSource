@@ -5,17 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>app1</title>
     <style>
-        h1{
-           color: rebeccapurple;  
+        h1 {
+            color: rebeccapurple;
         }
     </style>
 </head>
 
 <body>
-
     <h1>这里是子应用app1</h1>
+
+    <div style="width: 200px;" class="border-dashed border-4 border-light-blue-500 ...">
+        <div class="divide-y divide-teal-400 md:divide-pink-400">
+            <div class="py-2">1</div>
+            <div class="py-2">2</div>
+            <div class="py-2">3</div>
+        </div>
+    </div>
     <button id='app1btn'>10</button>
     <script src="/app1.js"></script>
     <script src="https://cdn.staticfile.org/lodash.js/4.17.20/lodash.core.min.js"></script>
